@@ -15,8 +15,10 @@ arch:
 init: false
 ports:
   9050/tcp: 9050
+  9051/tcp: 9051
 ports_description:
   9050/tcp: Tor SOCKS proxy port
+  9051/tcp: Tor HTTP proxy port
 map:
   - ssl:rw
 options:
